@@ -89,9 +89,6 @@
                 <p class="result-mess"></p>
                 <div id="label-container"></div>
                 <div class="image-title-wrap" style="width: 65%; margin: 0 auto;">
-                <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                <div class="addthis_inline_share_toolbox_j2bn"></div>
-        
                     <button type="button" onclick="removeUpload()" class="remove-image">
                         Remove
                         <span class="image-title">Uploaded Image</span>
@@ -194,7 +191,7 @@
                     var resultMess =
                         'You are similar to ' +
                         prediction[0].className +
-                        ' with ' +
+                        ' in ' +
                         prediction[0].probability.toFixed(2) * 100 +
                         '%';
                     $('.result-mess').html(resultMess);

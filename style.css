@@ -181,7 +181,9 @@ body {
 }
 
 .result-mess {
-    font-size: 1rem;
+    font-size: 2rem;
+    color: yellow;
+    text-decoration: underline;
 }
 
 /* On screens that are 600px or less, set the background color to olive */
